@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Robot';
+    src: local('Roboto'), local('Roboto'), url('../fonts/roboto/Roboto-Regular.woff') format('woff');
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    font-size: 30px;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
