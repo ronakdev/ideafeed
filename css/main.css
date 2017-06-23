@@ -7,12 +7,24 @@ nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     font-size: 30px;
 }
 
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+main {
+flex: 1 0 auto;
+}
+
+i.fa.fa-times {
+     color: rgba(0,0,0,0.4);
+}
+
+.image-caption {
+    color: white !important;
+}
+
+label {
+    color: white !important;
+}
