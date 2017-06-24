@@ -2,7 +2,9 @@
     font-family: 'Robot';
     src: local('Roboto'), local('Roboto'), url('../fonts/roboto/Roboto-Regular.woff') format('woff');
 }
-
+textarea.materialize-textarea{
+    color: black !important;
+}
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     font-size: 30px;
 }
@@ -26,5 +28,15 @@ i.fa.fa-times {
 }
 
 label {
-    color: white !important;
+/*    color: white !important;*/
+}
+textarea.materialize-textarea{
+    color: black !important;
+}
+textarea.materialize-textarea {
+    color: black !important;
+    overflow-y: hidden;
+    padding: .8rem 0 1.6rem 0;
+    resize: none;
+    min-height: 3rem;
 }
