@@ -207,21 +207,21 @@ class TextForm extends React.Component {
   render() {
     return (
     <div className="row">
-                <div className="col s12">
+                <div className="col s12"  className="white-text" >
                     <div className="card blue">
                     <div className="card-content white-text">
       <form onSubmit={this.handleSubmit} >
           <div className="row">
-                        <label for="tags-input">Tags</label>
+                        <label className="white-text" for="tags-input">Tags</label>
 
           <input id="tags-input" type="text" value={this.state.header} onChange={this.handleTagChange} className="validate" />
           </div>
             <br />
           
           <div className="row">
-            <label for="content-input">Post Content</label>
+            <label className="white-text" for="content-input">Post Content</label>
             
-          <textarea id="content-input" className="materialize-textarea text-black" type="text" value={this.state.content} onChange={this.handleContentChange} />
+          <textarea id="content-input" className="materialize-textarea" type="text" value={this.state.content} onChange={this.handleContentChange} />
         <br />
           </div>
         
